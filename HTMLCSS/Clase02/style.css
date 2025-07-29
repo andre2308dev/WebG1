@@ -1,0 +1,37 @@
+#caja1 {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+#caja2 {
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+
+#caja3 {
+    background-color: yellow;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+#caja4 {
+    background-color: green;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+a {
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 400px;
+}
+
+.bordeAncho {
+    border: 10px solid black;
+}
