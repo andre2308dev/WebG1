@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.cuadroChiquito {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border: 3px solid red;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadro {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width: 600px) {
+    .cuadro {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .cuadroChiquito {
+        width: 30px;
+        height: 30px;
+    }
+    
+    header, nav, footer {
+        text-align: center;
+    }
+}

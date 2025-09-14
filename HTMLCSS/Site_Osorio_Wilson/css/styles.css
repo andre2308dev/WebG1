@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background-color: turquoise;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    gap: 30px;
+    display: inline-block;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    background-color: brown;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.subtitulo {
+    font-size: 25px;
+}
+
+nav {
+    background-color: cadetblue;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.botones {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: brown;
+    border: 1px solid black;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.botones:hover {
+    background-color: chocolate;
+    cursor: pointer;
+}
+
+main {
+    width: 100vw;
+    height: 60vh;
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sec1 {
+    background-color: violet;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.texto {
+    font-size: 30px;
+}
+
+#sec2 {
+    background-color: aqua;
+    align-content: center;
+    justify-items: center;
+}
+
+.rectangulo {
+    width: 200px;
+    height: 300px;
+    background-color: brown;
+}
+
+footer {
+    width: 100vw;
+    height: 20vh;
+    background-color: darkblue;
+    text-align: center;
+    align-content: center;
+}
+
+.texto-footer {
+    color: aqua;
+}

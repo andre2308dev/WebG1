@@ -1,0 +1,16 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    background-color: lightblue;
+}
+
+#padre {
+    background-color: lightgreen;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

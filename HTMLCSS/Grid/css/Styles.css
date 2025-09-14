@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    display: flex;    
+}
+
+header {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(145, 145, 235);
+}
+nav {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(135, 160, 89);
+}
+main {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(195, 96, 110);
+}
+aside {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(243, 221, 142);
+}
+footer {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(133, 235, 221);
+}

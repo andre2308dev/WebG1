@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: khaki;
+    padding: 5px;
+    border: 1px solid black;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "id7 id3 id9"
+        "id4 id6 id9"
+        "id1 id2 id2"
+        "id8 id5 id5";
+    align-content: flex-start;
+}
+
+#id1 {
+    grid-area: id1;
+    background-color: blue;
+}
+
+#id2 {
+    grid-area: id2
+}
+
+#id3 {
+    grid-area: id3
+}
+
+#id4 {
+    grid-area: id4
+}
+
+#id5 {
+    grid-area: id5
+}
+
+#id6 {
+    grid-area: id6
+}
+
+#id7 {
+    grid-area: id7
+}
+
+#id8 {
+    grid-area: id8
+}
+
+#id9 {
+    grid-area: id9
+}
+
+.caja {
+    border: 3px solid black;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+
+    width: 150px;
+}
